@@ -58,8 +58,8 @@ const app = express();
 
 // CORS Configuration
 const corsOptions = {
-  origin: process.env.CLIENT_URL || 'http://localhost:3000',
-  methods: ['GET', 'POST'],
+  origin: ["http://localhost:3000", "https://vcabygaurav.netlify.app"],
+  methods: ["GET", "POST"],
   credentials: true
 };
 
