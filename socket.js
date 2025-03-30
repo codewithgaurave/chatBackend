@@ -5,7 +5,7 @@ let io;
 const initSocket = (server) => {
   io = socketIO(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: ["http://localhost:3000","https://vcabygaurav.netlify.app"],
       methods: ["GET", "POST"],
       credentials: true
     }
